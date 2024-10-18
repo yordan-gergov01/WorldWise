@@ -1,4 +1,5 @@
 import styles from "./CountryItem.module.css";
+import PropTypes from "prop-types";
 
 function CountryItem({ country }) {
   return (
@@ -8,5 +9,12 @@ function CountryItem({ country }) {
     </li>
   );
 }
+
+CountryItem.propTypes = {
+  country: PropTypes.shape({
+    country: PropTypes.string.isRequired, // Правилно валидиране на името на страната
+    emoji: PropTypes.string.isRequired, // Правилно валидиране на емодито
+  }).isRequired,
+};
 
 export default CountryItem;
