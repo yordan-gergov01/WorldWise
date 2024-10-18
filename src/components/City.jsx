@@ -1,19 +1,19 @@
 import { useParams, useSearchParams } from "react-router-dom";
-import styles from "./City.module.css";
+import styles from "./City.module.css"; // eslint-disable-line no-unused-vars
 
-const formatDate = (date) =>
-  new Intl.DateTimeFormat("en", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    weekday: "long",
-  }).format(new Date(date));
+// const formatDate = (date) =>
+//   new Intl.DateTimeFormat("en", {
+//     day: "numeric",
+//     month: "long",
+//     year: "numeric",
+//     weekday: "long",
+//   }).format(new Date(date));
 
 function City() {
-  const { id } = useParams();
-  const [searchParams, setSearchParams] = useSearchParams();
-  const lat = searchParams.get("lat");
-  const lng = searchParams.get("lng");
+  const { id } = useParams(); // eslint-disable-line no-unused-vars
+  const [searchParams, setSearchParams] = useSearchParams(); // eslint-disable-line no-unused-vars
+  const lat = searchParams.get("lat"); // eslint-disable-line no-unused-vars
+  const lng = searchParams.get("lng"); // eslint-disable-line no-unused-vars
   // TEMP DATA
   const currentCity = {
     cityName: "Lisbon",
@@ -22,7 +22,7 @@ function City() {
     notes: "My favorite city so far!",
   };
 
-  const { cityName, emoji, date, notes } = currentCity;
+  const { cityName, emoji, date, notes } = currentCity; // eslint-disable-line no-unused-vars
 
   // return (
   //   <div className={styles.city}>
