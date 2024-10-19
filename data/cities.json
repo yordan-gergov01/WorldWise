@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,55 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "3819",
+      "cityName": "Veliko Tŭrnovo",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2024-10-19T14:07:52.483Z",
+      "notes": "Nice place",
+      "position": {
+        "lat": "43.08017749923486",
+        "lng": "25.661315917968754"
+      }
+    },
+    {
+      "id": "c27a",
+      "cityName": "Pleven",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2024-10-19T14:13:27.489Z",
+      "notes": "My old living place",
+      "position": {
+        "lat": "43.41740959635854",
+        "lng": "24.675292968750004"
+      }
+    },
+    {
+      "id": "86be",
+      "cityName": "Ormskirk",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-10-19T14:15:21.014Z",
+      "notes": "My mom lives there",
+      "position": {
+        "lat": "53.54993764966275",
+        "lng": "-2.7771377563476567"
+      }
+    },
+    {
+      "id": "15e9",
+      "cityName": "Iskar",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2024-10-19T14:20:44.406Z",
+      "notes": "Here is my village",
+      "position": {
+        "lat": "43.516209493150846",
+        "lng": "24.213523864746094"
+      }
     }
   ]
 }

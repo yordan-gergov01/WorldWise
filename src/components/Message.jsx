@@ -10,7 +10,7 @@ function Message({ message }) {
 }
 
 Message.propTypes = {
-  message: PropTypes.string.isRequired, // Добави валидизация за message
+  message: PropTypes.string.isRequired,
 };
 
 export default Message;

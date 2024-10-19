@@ -12,8 +12,8 @@ function CountryItem({ country }) {
 
 CountryItem.propTypes = {
   country: PropTypes.shape({
-    country: PropTypes.string.isRequired, // Правилно валидиране на името на страната
-    emoji: PropTypes.string.isRequired, // Правилно валидиране на емодито
+    country: PropTypes.string.isRequired,
+    emoji: PropTypes.string.isRequired,
   }).isRequired,
 };
 
