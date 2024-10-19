@@ -32,10 +32,10 @@ function CityItem({ city }) {
 
 CityItem.propTypes = {
   city: PropTypes.shape({
+    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     cityName: PropTypes.string.isRequired,
     emoji: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired,
     position: PropTypes.shape({
       lat: PropTypes.number.isRequired,
       lng: PropTypes.number.isRequired,
