@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import styles from "./City.module.css"; // eslint-disable-line no-unused-vars
+import styles from "./City.module.css";
 import { useEffect } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import Spinner from "./Spinner";
@@ -14,17 +14,17 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function City() {
-  const { id } = useParams(); // eslint-disable-line no-unused-vars
+  const { id } = useParams();
   const { getCity, currentCity, isLoading } = useCities();
 
   useEffect(
     function () {
       getCity(id);
     },
-    [id]
+    [id, getCity]
   );
 
-  const { cityName, emoji, date, notes } = currentCity; // eslint-disable-line no-unused-vars
+  const { cityName, emoji, date, notes } = currentCity;
 
   if (isLoading) return <Spinner />;
 
