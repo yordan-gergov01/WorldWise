@@ -50,6 +50,8 @@ function useAuth() {
 
   if (context === undefined)
     throw new Error("AuthContext was used outside AuthProvider");
+
+  return context;
 }
 
 AuthProvider.propTypes = {
